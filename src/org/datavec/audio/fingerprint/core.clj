@@ -1,0 +1,16 @@
+(ns org.datavec.audio.fingerprint.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.datavec.audio.fingerprint.FingerprintManager])
+(require '[org.datavec.audio.fingerprint.FingerprintSimilarity])
+(require '[org.datavec.audio.fingerprint.FingerprintSimilarityComputer])
+(require '[org.datavec.audio.fingerprint.MapRank])
+(require '[org.datavec.audio.fingerprint.MapRankDouble])
+(require '[org.datavec.audio.fingerprint.MapRankInteger])
+(require '[org.datavec.audio.fingerprint.PairManager])
+(require '[org.datavec.audio.fingerprint.QuickSort])
+(require '[org.datavec.audio.fingerprint.QuickSortDouble])
+(require '[org.datavec.audio.fingerprint.QuickSortIndexPreserved])
+(require '[org.datavec.audio.fingerprint.QuickSortInteger])
+(require '[org.datavec.audio.fingerprint.QuickSortShort])

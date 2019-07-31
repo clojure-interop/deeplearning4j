@@ -1,0 +1,18 @@
+(ns org.nd4j.linalg.indexing.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.nd4j.linalg.indexing.BooleanIndexing])
+(require '[org.nd4j.linalg.indexing.INDArrayIndex])
+(require '[org.nd4j.linalg.indexing.IndexInfo])
+(require '[org.nd4j.linalg.indexing.Indices])
+(require '[org.nd4j.linalg.indexing.IntervalIndex])
+(require '[org.nd4j.linalg.indexing.NDArrayIndex])
+(require '[org.nd4j.linalg.indexing.NDArrayIndexAll])
+(require '[org.nd4j.linalg.indexing.NDArrayIndexEmpty])
+(require '[org.nd4j.linalg.indexing.NewAxis])
+(require '[org.nd4j.linalg.indexing.PointIndex])
+(require '[org.nd4j.linalg.indexing.ShapeOffsetResolution])
+(require '[org.nd4j.linalg.indexing.SpecifiedIndex$SparseSpecifiedIndexesGenerator])
+(require '[org.nd4j.linalg.indexing.SpecifiedIndex$SpecifiedIndexesGenerator])
+(require '[org.nd4j.linalg.indexing.SpecifiedIndex])

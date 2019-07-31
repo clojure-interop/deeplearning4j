@@ -1,0 +1,15 @@
+(ns com.atilika.kuromoji.compile.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[com.atilika.kuromoji.compile.CharacterDefinitionsCompiler])
+(require '[com.atilika.kuromoji.compile.Compiler])
+(require '[com.atilika.kuromoji.compile.ConnectionCostsCompiler])
+(require '[com.atilika.kuromoji.compile.DictionaryCompilerBase])
+(require '[com.atilika.kuromoji.compile.DoubleArrayTrieCompiler])
+(require '[com.atilika.kuromoji.compile.ProgressLog])
+(require '[com.atilika.kuromoji.compile.TokenInfoBufferCompiler])
+(require '[com.atilika.kuromoji.compile.TokenInfoDictionaryCompilerBase])
+(require '[com.atilika.kuromoji.compile.UnknownDictionaryCompiler])
+(require '[com.atilika.kuromoji.compile.WordIdMapCompiler$GrowableIntArray])
+(require '[com.atilika.kuromoji.compile.WordIdMapCompiler])

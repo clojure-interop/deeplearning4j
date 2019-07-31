@@ -1,0 +1,15 @@
+(ns org.datavec.api.split.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.datavec.api.split.BaseInputSplit])
+(require '[org.datavec.api.split.CollectionInputSplit])
+(require '[org.datavec.api.split.FileSplit])
+(require '[org.datavec.api.split.InputSplit])
+(require '[org.datavec.api.split.InputStreamInputSplit])
+(require '[org.datavec.api.split.ListStringSplit])
+(require '[org.datavec.api.split.NumberedFileInputSplit])
+(require '[org.datavec.api.split.OutputStreamInputSplit])
+(require '[org.datavec.api.split.StringSplit])
+(require '[org.datavec.api.split.TransformSplit$URITransform])
+(require '[org.datavec.api.split.TransformSplit])

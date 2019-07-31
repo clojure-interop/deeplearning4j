@@ -1,0 +1,17 @@
+(ns tensorflow.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$AttrDefault$Builder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$AttrDefault])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$AttrDefaultOrBuilder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$Builder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$Rename$Builder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$Rename])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride$RenameOrBuilder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverride])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverrideOrBuilder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverrides$Builder])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverrides])
+(require '[tensorflow.OpGenOverridesOuterClass$OpGenOverridesOrBuilder])
+(require '[tensorflow.OpGenOverridesOuterClass])

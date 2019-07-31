@@ -1,0 +1,17 @@
+(ns org.deeplearning4j.nn.api.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.deeplearning4j.nn.api.Classifier])
+(require '[org.deeplearning4j.nn.api.FwdPassType])
+(require '[org.deeplearning4j.nn.api.Layer$TrainingMode])
+(require '[org.deeplearning4j.nn.api.Layer$Type])
+(require '[org.deeplearning4j.nn.api.Layer])
+(require '[org.deeplearning4j.nn.api.MaskState])
+(require '[org.deeplearning4j.nn.api.Model])
+(require '[org.deeplearning4j.nn.api.NeuralNetwork])
+(require '[org.deeplearning4j.nn.api.OptimizationAlgorithm])
+(require '[org.deeplearning4j.nn.api.ParamInitializer])
+(require '[org.deeplearning4j.nn.api.Trainable])
+(require '[org.deeplearning4j.nn.api.TrainingConfig])
+(require '[org.deeplearning4j.nn.api.Updater])

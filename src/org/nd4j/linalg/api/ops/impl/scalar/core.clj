@@ -1,0 +1,15 @@
+(ns org.nd4j.linalg.api.ops.impl.scalar.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarAdd])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarDivision])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarFMod])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarMax])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarMin])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarMultiplication])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarRemainder])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarReverseDivision])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarReverseSubtraction])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarSet])
+(require '[org.nd4j.linalg.api.ops.impl.scalar.ScalarSubtraction])

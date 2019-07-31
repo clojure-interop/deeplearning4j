@@ -1,0 +1,18 @@
+(ns org.deeplearning4j.nn.layers.recurrent.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.deeplearning4j.nn.layers.recurrent.BaseRecurrentLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.BidirectionalLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.CudnnLSTMHelper])
+(require '[org.deeplearning4j.nn.layers.recurrent.FwdPassReturn])
+(require '[org.deeplearning4j.nn.layers.recurrent.GravesBidirectionalLSTM])
+(require '[org.deeplearning4j.nn.layers.recurrent.GravesLSTM])
+(require '[org.deeplearning4j.nn.layers.recurrent.LSTM])
+(require '[org.deeplearning4j.nn.layers.recurrent.LSTMHelper])
+(require '[org.deeplearning4j.nn.layers.recurrent.LSTMHelpers])
+(require '[org.deeplearning4j.nn.layers.recurrent.LastTimeStepLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.MaskZeroLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.RnnLossLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.RnnOutputLayer])
+(require '[org.deeplearning4j.nn.layers.recurrent.SimpleRnn])

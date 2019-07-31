@@ -1,0 +1,23 @@
+(ns org.nd4j.nativeblas.Nd4jCpu$float_scatter_list
+  "This operation unpacks given NDArray into specified NDArrayList wrt specified indices"
+  (:refer-clojure :only [require comment defn ->])
+  (:import [org.nd4j.nativeblas Nd4jCpu$float_scatter_list]))
+
+(defn ->float-scatter-list
+  "Constructor.
+
+  Pointer cast constructor. Invokes Pointer.Pointer(Pointer).
+
+  p - `org.bytedeco.javacpp.Pointer`"
+  (^Nd4jCpu$float_scatter_list [^org.bytedeco.javacpp.Pointer p]
+    (new Nd4jCpu$float_scatter_list p))
+  (^Nd4jCpu$float_scatter_list []
+    (new Nd4jCpu$float_scatter_list )))
+
+(defn position
+  "position - `long`
+
+  returns: `org.nd4j.nativeblas.Nd4jCpu$float_scatter_list`"
+  (^org.nd4j.nativeblas.Nd4jCpu$float_scatter_list [^Nd4jCpu$float_scatter_list this ^Long position]
+    (-> this (.position position))))
+
