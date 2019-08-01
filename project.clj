@@ -1,7 +1,7 @@
 (defproject clojure-interop/deeplearning4j "1.0.0"
-  :description "Clojure to Java Interop Bindings for deeplearning4j"
+  :description "null"
   :url "https://github.com/clojure-interop/deeplearning4j"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]]
-  :source-paths ["src"])
+  :source-paths ["com.atilika.kuromoji/src" "onnx/src" "org.datavec.api.exceptions/src" "org.datavec.api.transform/src" "org.datavec.api.records/src" "org.datavec.api.conf/src" "org.datavec.api.vector/src" "org.datavec.api.split/src" "org.datavec.api.util/src" "org.datavec.api.io/src" "org.datavec.api.writable/src" "org.deeplearning4j.ui/src" "org.deeplearning4j.evaluation/src" "org.deeplearning4j.gradientcheck/src" "org.deeplearning4j.earlystopping/src" "org.deeplearning4j.iterator/src" "org.deeplearning4j.zoo/src" "org.deeplearning4j.config/src" "org.deeplearning4j.exception/src" "org.deeplearning4j.base/src" "org.deeplearning4j.parallelism/src" "org.deeplearning4j.gym/src" "org.deeplearning4j.optimize/src" "org.deeplearning4j.plot/src" "org.deeplearning4j.malmo/src" "org.deeplearning4j.arbiter/src" "org.deeplearning4j.util/src" "org.deeplearning4j.eval/src" "org.nd4j.base/src" "org.nd4j.list/src" "org.nd4j.storage/src" "org.nd4j.graph/src" "org.nd4j.finitedifferences/src" "org.nd4j.resources/src" "org.nd4j.arrow/src" "org.nd4j.primitives/src" "org.nd4j.parameterserver/src" "org.nd4j.rng/src" "org.nd4j.imports/src" "org.nd4j.versioncheck/src" "org.nd4j.nativeblas/src" "org.nd4j.context/src" "org.nd4j.weightinit/src" "org.nd4j.config/src" "org.nd4j.tools/src" "org.nd4j.util/src" "org.tensorflow.framework/src" "org.tensorflow.util/src" "tensorflow/src" "vizdoom/src"])

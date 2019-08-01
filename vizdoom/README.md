@@ -1,9 +1,15 @@
-# Deep Learning for Java (deeplearning4j) Bindings for Clojure.
+# Bindings for vizdoom
 
 These bindings are created to simplify interaction with java classes from clojure.
 For each java class was created a separate namespace.
 Each method/field has its own function/field binding.
 Their names are changed for a more native look in the clojure code. Each function has docstring - information about the parameters, return value and possible exceptions.
+
+## Clojars
+
+```
+[clojure-interop/vizdoom "1.0.0"]
+```
 
 ## Class Members Naming Conventions
 
@@ -15,6 +21,25 @@ Their names are changed for a more native look in the clojure code. Each functio
 | static method | staticMethod() | (*static-method) |
 | static field | ANY_STATIC_FIELD | (*-any-static-field) |
 | boolean field/method | isExists(), canUse() | (exists?), (can-use?) |
+
+## Classes
+
+- enum **vizdoom.AutomapMode**
+- enum **vizdoom.Button**
+- class **vizdoom.DoomGame**
+- class **vizdoom.FileDoesNotExistException**
+- class **vizdoom.GameState**
+- enum **vizdoom.GameVariable**
+- class **vizdoom.Label**
+- class **vizdoom.MessageQueueException**
+- enum **vizdoom.Mode**
+- enum **vizdoom.ScreenFormat**
+- enum **vizdoom.ScreenResolution**
+- class **vizdoom.SharedMemoryException**
+- class **vizdoom.SignalException**
+- class **vizdoom.ViZDoomErrorException**
+- class **vizdoom.ViZDoomIsNotRunningException**
+- class **vizdoom.ViZDoomUnexpectedExitException**
 
 ## Contributors
 
